@@ -19,7 +19,7 @@ import org.json.JSONObject;
 
 public class IssueViolation extends AppCompatActivity {
     private static JSONParser jParser = new JSONParser();
-    private static String urlHost = "http://192.168.34.59/TicketingSystem/issueViolation.php";
+    private static String urlHost = "http://192.168.1.12/TicketingSystem/issueViolation.php";
     private static String TAG_MESSAGE = "message" , TAG_SUCCESS = "success";
     private static String online_dataset = "";
     private static String drivername = "";

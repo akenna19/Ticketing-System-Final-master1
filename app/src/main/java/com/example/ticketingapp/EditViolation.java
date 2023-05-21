@@ -19,7 +19,7 @@ public class EditViolation extends AppCompatActivity {
     private static EditText fn, dob, ln, tov;
     private static String cItemcode = "";
     private static JSONParser jParser = new JSONParser();
-    private static String urlHost = "http://192.168.34.59/TicketingSystem/UpdateViolation.php";
+    private static String urlHost = "http://192.168.1.12/TicketingSystem/UpdateViolation.php";
     private static String TAG_MESSAGE = "message", TAG_SUCCESS = "success";
     private static String online_dataset = "";
     public static String String_isempty = "";
